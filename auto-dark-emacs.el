@@ -47,7 +47,7 @@
   "Function to enable your light theme of choice."
   :group 'auto-dark-emacs)
 
-(defcustom auto-dark-emacs/polling-interval-seconds 5
+(defcustom auto-dark-emacs/polling-interval-seconds 120
   "The number of seconds between which to poll for dark mode state. Emacs must be restarted for this value to take effect."
   :group 'auto-dark-emacs
   :type 'integer)
